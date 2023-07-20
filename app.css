@@ -23,7 +23,12 @@ body {
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
 }
-
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
 .aqua-gradient {
   background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
 }
