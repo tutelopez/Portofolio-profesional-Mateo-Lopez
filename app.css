@@ -16,7 +16,14 @@ body {
   object-fit: contain;
   border-radius: 10px;
 }
-
+.nav-hover-custom:hover{
+  color: #9917b5;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#menuBurger{
+  color: #fff;
+}
 .testimonial-card .card-up {
   height: 120px;
   overflow: hidden;
@@ -47,6 +54,7 @@ body {
   background-color: rgba(17, 25, 40, 0.52);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+
 }
 
 .navbar-glass {
@@ -276,4 +284,34 @@ h1, .h1 {
 
 #hero-portada{
   margin-top: 60px;
+}
+@media screen and (max-width: 767px) {
+  .glass-card {
+    
+    margin-left: 150px;
+    
+  }
+ .boton-cv{
+  margin-left: 150px;
+ }
+}
+@media screen and (max-width: 991px) {
+  .glass-card {
+    
+    margin-left: 250px;
+    
+  }
+ .boton-cv{
+  margin-left: 250px;
+ }
+}
+@media screen and (max-width: 575px) {
+  .glass-card {
+    
+    margin-left: 100px;
+    
+  }
+ .boton-cv{
+  margin-left: 100px;
+ }
 }
