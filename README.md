@@ -1,4 +1,4 @@
-# Págima Web Portofolio profesional
+# Página Web Portofolio profesional
 
 ¡Bienvenido/a al repositorio de mi Portafolio Profesional! Aquí encontrarás una muestra de mi trayectoria, habilidades y proyectos en el campo del desarrollo web y aplicaciones digitales. Soy estudiante de la Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales en el Instituto Superior Politécnico de Córdoba. Con 24 años de edad y originario/a de Monte Buey, Argentina, actualmente resido en la ciudad de Bogotá, Colombia.
 
