@@ -3,6 +3,16 @@ html {
   max-width: 100%;
   overflow-x: hidden;
 }
+.custom-hr {
+  width: 60%;
+  margin: 20px auto; /* Ajusta el margen según tus preferencias */
+  border-color: #ffffff; /* Cambia el color de la línea si lo deseas */
+  border-width: 1px; /* Ajusta el grosor de la línea si lo deseas */
+}
+.grayscale-img {
+  filter: grayscale(100%);
+  border-radius: 40%;
+}
 
 h1, h2, h3, h4, h5 {
   color: #fff;
@@ -11,8 +21,8 @@ h1, h2, h3, h4, h5 {
 body {
   background-color: #000000;
   background-image: 
-    radial-gradient(at 47% 33%, #9917b5 0, transparent 59%), 
-    radial-gradient(at 82% 65%, #3f63a2 0, transparent 55%);
+    radial-gradient(at 47% 33%, #a817b5 0, transparent 59%), 
+    radial-gradient(at 82% 65%, #a23f3f 0, transparent 55%);
   font-family: 'Questrial', sans-serif;
 }
 
@@ -131,7 +141,8 @@ h1, .h1 {
 .postcard__img {
   max-height: 180px;
   width: 100%;
-  object-fit: contain;
+  
+  object-fit: cover;
   position: relative;
 }
 
@@ -306,6 +317,9 @@ h1, .h1 {
     margin-left: 250px;
     
   }
+  .grayscale-img{
+    margin-left: 100px;
+  }
  .boton-cv{
   margin-left: 250px;
  }
@@ -315,6 +329,9 @@ h1, .h1 {
     
     margin-left: 50px;
     
+  }
+  .grayscale-img{
+    margin-left: 30px;
   }
  .boton-cv{
   margin-left: 100px;
